@@ -1,0 +1,58 @@
+.TrendingContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4vw;
+    gap: 2vw;
+  }
+  .verticalBorderTrending{
+    height: 30vw;
+    width: 1px;
+    border: 1px solid lightgray;
+  }
+  
+  .trendingImageside{
+    width: 30vw;
+    height: 50%;
+    margin-top: 7vw;
+    object-fit: cover;
+  }
+  
+  
+  
+  .headingTrending{
+    margin:"0 13vw 5vw 0";
+    padding-bottom: 2vw;
+    width:"60%";
+  }
+  
+
+  @media (max-width:600px){
+    .TrendingContainer{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 4vw;
+      gap: 2vw;
+    }
+    .verticalBorderTrending{
+      height: 1px;
+      width: 90%;
+      border: 1px solid lightgray;
+    }
+    
+    .trendingImageside{
+      width: 100vw;
+      height: 50%;
+      margin: 5vw 7vw;
+      object-fit: cover;
+    }
+    
+    .headingTrending{
+      text-align: start;
+      width: 100%;
+      margin-left: 3vw;
+    }
+    
+  }

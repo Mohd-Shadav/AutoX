@@ -1,0 +1,306 @@
+.reviewsBarContainer{
+    width: 100%;
+    background: transparent;
+    height: 2vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5vw;
+    margin-top:4vw ;
+  }
+  
+  
+  .reviewOpinionList{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 2vw;
+    font-size: 1.1vw;
+  }
+  
+  
+  .ViewALlreviews>*{
+    cursor: pointer;
+    
+    font-size: 1.1vw;
+  
+    border: none;
+    padding: 0.4vw;
+  }
+  
+  
+  .ViewALlreviews>*:hover{
+    background-color: rgb(216, 76, 76);
+    color: white;
+  }
+  
+  .listReview{
+    /* background-color:; */
+    padding: 0.4vw;
+  }
+  
+  .listReview:active{
+    background-color: red;
+  }
+  
+  /* reviewMaterial */
+  .reviewmaterialContainer{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap: 100px;
+  
+    overflow-x:scroll;
+    /* padding: 2vw; */
+    padding:2vw 5vw;
+    width: 100vw;
+    margin: 2vw 0;
+  
+  }
+  .reviewmaterialContainer::-webkit-scrollbar {
+    margin: 3vw;
+    /* width: 7px; Width of the scrollbar */
+    height: 5px;
+  
+  }
+  
+  /* Track */
+  .reviewmaterialContainer::-webkit-scrollbar-track {
+    background:transparent; /* Color of the scrollbar track */
+    height: 5px;
+  
+  
+  }
+  
+  /* Handle */
+  .reviewmaterialContainer::-webkit-scrollbar-thumb {
+  
+    background:black; /* Color of the scrollbar handle */
+    border-radius: 50%; /* Rounded corners for the handle */
+    cursor: pointer;
+  
+  }
+  
+  /* Handle on hover */
+  .reviewmaterialContainer::-webkit-scrollbar-thumb:hover {
+    background: black; /* Color of the scrollbar handle on hover */
+  }
+  
+  
+  .reviewmaterialContainer>*{
+    min-width:320px;
+  }
+  
+  .reviewCardImage{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+  }
+  
+  
+  .textCardReview{
+      text-align: center;
+      font-size: 1.1vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+  }
+  .textCardReview>button{
+      padding: 0.7vw 2vw;
+      align-self:stretch;
+  }
+  .carbikeReview{
+    margin-left: -1rem;
+    margin-right: -1rem;
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: stretch;
+    margin-bottom: 2rem;
+    width: 320px;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.25rem;
+    background-color: rgba(17, 24, 39, 1);
+    padding: 1.5rem;
+    display: flex;
+  
+    justify-content: center;
+    align-items:start;
+    flex-direction:column;
+    height: 35vw;
+    box-shadow: 1px 1px 30px black;
+  }
+  
+  .carbikeReviewheader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 4vw;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+    color: #fff
+  }
+  
+  .price {
+    font-size: 3.75rem;
+    line-height: 1;
+    font-weight: 700;
+    color: #fff
+  }
+  
+  .carbikeReviewdesc {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.625;
+    color: rgba(156, 163, 175, 1);
+  }
+  
+  .lists {
+    margin-bottom: 1.5rem;
+    flex: 1 1 0%;
+    color: rgba(156, 163, 175, 1);
+  }
+  
+  .lists .list {
+    margin-bottom: 0.5rem;
+    display: flex;
+    margin-left: 0.5rem
+  }
+  
+  .lists .list svg {
+    height: 1.5rem;
+    width: 1.5rem;
+    flex-shrink: 0;
+    margin-right: 0.5rem;
+    color: rgba(167, 139, 250, 1);
+  }
+  
+  .carbikeReviewaction {
+    border: none;
+    outline: none;
+    display: inline-block;
+    border-radius: 0.25rem;
+    background-color: rgba(167, 139, 250, 1);
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color: rgba(17, 24, 39, 1);
+  }
+
+  @media (max-width:600px){
+    
+.reviewsBarContainer{
+  width: 100%;
+  background: transparent;
+  height: 2vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5vw;
+  margin-top:4vw ;
+}
+
+
+.reviewOpinionList{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  gap: 10vw;
+  font-size: 1.5vw;
+}
+
+
+.ViewALlreviews>*{
+  cursor: pointer;
+  
+  font-size: 2.5vw;
+
+  border: none;
+  padding: 0.4vw;
+}
+
+
+/* reviewMaterial */
+.reviewmaterialContainer{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  gap: 100px;
+
+  overflow-x:scroll;
+  /* padding: 2vw; */
+  padding:4vw 10vw;
+  width: 100vw;
+  margin: 4vw 0;
+
+}
+
+
+.reviewmaterialContainer>*{
+  min-width:320px;
+}
+
+.reviewCardImage{
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+}
+
+
+.textCardReview{
+    text-align: center;
+    font-size: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.textCardReview>button{
+    padding: 0.7vw 2vw;
+    align-self:stretch;
+}
+.carbikeReview{
+  margin-left: -1rem;
+  margin-right: -1rem;
+  display: flex;
+  /* flex-wrap: wrap; */
+  align-items: stretch;
+  margin-bottom: 2rem;
+  width: 320px;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.25rem;
+  background-color: rgba(17, 24, 39, 1);
+  padding: 1.5rem;
+  display: flex;
+
+  justify-content: center;
+  align-items:start;
+  flex-direction:column;
+  height: 50vw;
+  box-shadow: 1px 1px 30px black;
+}
+
+.carbikeReviewheader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 4vw;
+}
+
+  }

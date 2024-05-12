@@ -1,0 +1,45 @@
+.Footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  .aboutCompanyFooter{
+    display: flex;
+    flex-direction: column;
+    padding: 2vw;
+  }
+  
+  .containerFooter{
+   display: flex;
+  }
+  
+  .rowFooter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 5vw;
+    
+  }
+  .rowFooter>*{
+    color: #38ef7d;
+  }
+  
+  .footerdisplay{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .footer-text>*{
+    text-decoration: none;
+    color: gray;
+  }
+  
+  .headingAboutandImage{
+    display: flex;
+    gap: 3vw;
+  }
+  
